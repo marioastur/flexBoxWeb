@@ -1,4 +1,55 @@
-img {
+body{
+    width: 80vw;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+h1{
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 3em;
+}
+
+nav ul{
+    margin: 0px;
+    height: 40px;
+    margin-right: 10px;
+}
+nav li{
+    display: inline-block;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principalImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#principalImage figure{
+    background-color: blue;
+    max-width: 50%;
+}
+
+#principalImage img{
+    width: 35vw;
+    
+
+}
+
+
+
+
+aside img {
     width: 100px;
     height: 50px;
 }
+
